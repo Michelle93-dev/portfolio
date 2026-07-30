@@ -1,14 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f7fb;
+    background-color: #fff0f5;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #6c63ff;
-    color: white;style.css
+    background-color: #d63384;
+    color: white;
     text-align: center;
     padding: 50px 20px;
 }
@@ -26,14 +26,24 @@ section {
     margin: 30px auto;
     padding: 25px;
     max-width: 800px;
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 h2 {
-    color: #6c63ff;
+    color: #d63384;
 }
 
 ul {
     list-style: none;
     padding: 0;
+}
+
+li {
+    padding: 8px;
+    font-size: 18px;
+}
+
+h3 {
+    color: #a61e4d;
 }
